@@ -13,13 +13,13 @@ public class Product {
     @Column(name = "title")
     private String title;
     @Column(name = "in_stock")
-    private int inStock;
+    private String inStock;
     @Column(name = "link")
     private String link;
 
     public Product() { }
 
-    public Product(long id, String title, int inStock, String link) {
+    public Product(long id, String title, String inStock, String link) {
         this.id = id;
         this.title = title;
         this.inStock = inStock;
@@ -42,11 +42,11 @@ public class Product {
         this.title = title;
     }
 
-    public int getInStock() {
+    public String getInStock() {
         return inStock;
     }
 
-    public void setInStock(int inStock) {
+    public void setInStock(String inStock) {
         this.inStock = inStock;
     }
 

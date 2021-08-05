@@ -2,6 +2,7 @@ package com.example.employeecrudpostgress.controller;
 
 import com.example.employeecrudpostgress.model.Product;
 import com.example.employeecrudpostgress.repository.ProductRepository;
+import com.example.employeecrudpostgress.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
